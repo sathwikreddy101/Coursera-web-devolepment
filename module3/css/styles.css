@@ -1,103 +1,96 @@
-#header-nav {
-    background-color: grey;
-    border-radius: 0;
-    border: 0;
-  }
-
-  .navbar-brand {
-    padding-top: 25px;
-  }
-  
-  .navbar-brand h1 { /* Restaurant name */
-    font-family: 'Oxygen', sans-serif;
-    color: black;
-    font-size: 1.5em;
-    font-weight: bold;
-    text-shadow: 1px 1px 1px #222;
-    margin-top: 0;
-    margin-bottom: 0;
-    line-height: .25;
-  }
-  .navbar-brand a:hover, .navbar-brand a:focus {
-    text-decoration: none;
-  }
-  .head {
-      text-align: center;
-      font-weight: bold;
-    font-family: 'Oxygen', sans-serif;
-    text-shadow: 1px 1px 1px black;
-  }
-
-  nav-list {
-    margin-top: 10px;
-    background-color: white;
-  }
-  #nav-list a {
-    color: #951C49;
-    text-align: center;
-  }
-  #nav-list a:hover {
-    background: #E7E7E7;
-  }
-  #nav-list a span {
-    font-size: 1.8em;
-  }
-
-  .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-    border: 1px solid #61122f;
-  }
-  .navbar-header button.navbar-toggle {
-    clear: both;
-    margin-top: -30px;
-  }
-
-#beef
-{
-    font-family: 'Oxygen', sans-serif;
-    font-weight: bold;
-    font-size: 1.5em;
-    text-shadow: 1px 1px 1px black;
-    text-align: center;
-}
-#chicken
-{
-    font-family: 'Oxygen', sans-serif;
-    font-weight: bold;
-    font-size: 1.5em;
-    text-shadow: 1px 1px 1px black;
-    text-align: center;
-}
-#sushi
-{
-    font-family: 'Oxygen', sans-serif;
-    font-weight: bold;
-    font-size: 1.5em;
-    text-shadow: 1px 1px 1px black;
-    text-align: center;
+container-fluid{
+	margin: 0;
+	padding: 0;
 }
 
-.chicken {
-    background-color: grey;
-    float: left;
-        box-sizing: border-box;
-        border: 2px solid black;
-        margin: 10px;
-
+.navbar{
+	border-radius: 0px;
+	background-color: rgba(0,0,0,0.8);
 }
 
-.beef {
-    background-color: grey;
-    float: left;
-        box-sizing: border-box;
-        border: 2px solid black;
-        margin: 10px;
-        
+.navbar-brand{
+  font-size: 35px;
+  color: white;
+  padding-left: 25px;
 }
-.sushi {
-    background-color: grey;
-    float: left;
-        box-sizing: border-box;
-        border: 2px solid black;
-        margin: 10px;
-        
+
+.navbar-brand:hover{
+	color: white;
+}
+
+.nav{
+	margin: 0;
+	padding: 0;
+}
+
+.navbar-nav{
+  font-size: 25px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-toggle{
+	border: 2px solid white;
+	margin-right: 25px;
+}
+
+.icon-bar{
+	background-color: white;
+}
+
+
+.main-title{
+  margin-bottom: 15px;
+  text-align: center;
+  color: #ff4532;
+  font-size: 50px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-weight: bold;
+}
+
+li{
+	box-sizing: border-box;
+	width: 100%;
+}
+
+.menu-item{
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	background-color: white;
+	border-bottom: 1px solid black;
+	color: black;
+	display: block;
+}
+
+.menu-item:hover{
+	background-color: rgba(0,0,0,0.9);
+	color: rgba(0,0,0,0.4);
+}
+
+
+
+.row{
+	margin: 20px;
+}
+
+.content-box{
+	margin: 20px;
+	width: auto;
+	height: auto;
+	color: black;
+	background-color: rgba(0,0,0,0.2);
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	padding: 20px;
+}
+
+.item-name{
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#top{
+
 }
