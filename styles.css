@@ -1,103 +1,97 @@
+body {
+    font-size: 16px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #1a1a1a;
+    background-color: #599e4b;
+}
+
+
+/** HEADER **/
+
 #header-nav {
-    background-color: grey;
+    background-color: #c98715;
     border-radius: 0;
     border: 0;
-  }
+}
 
-  .navbar-brand {
-    padding-top: 25px;
-  }
-  
-  .navbar-brand h1 { /* Restaurant name */
-    font-family: 'Oxygen', sans-serif;
-    color: black;
-    font-size: 1.5em;
-    font-weight: bold;
-    text-shadow: 1px 1px 1px #222;
-    margin-top: 0;
-    margin-bottom: 0;
-    line-height: .25;
-  }
-  .navbar-brand a:hover, .navbar-brand a:focus {
-    text-decoration: none;
-  }
-  .head {
-      text-align: center;
-      font-weight: bold;
-    font-family: 'Oxygen', sans-serif;
-    text-shadow: 1px 1px 1px black;
-  }
+#header-nav button {
+    margin-top: 22px;
+}
 
-  nav-list {
-    margin-top: 10px;
-    background-color: white;
-  }
-  #nav-list a {
-    color: #951C49;
-    text-align: center;
-  }
-  #nav-list a:hover {
-    background: #E7E7E7;
-  }
-  #nav-list a span {
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #fce29e;
+}
+
+.navbar-collapse {
+    border-top: 0;
+}
+
+.navbar-brand, .navbar-nav li a {
+    line-height: 76px;
+    height: 76px;
+    padding-top: 0;
+}
+
+.navbar-brand h1 {
+    color: #7d1913;
+    font-family: 'Abril Fatface', cursive;
+    font-weight: bolder;
     font-size: 1.8em;
-  }
+}
 
-  .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-    border: 1px solid #61122f;
-  }
-  .navbar-header button.navbar-toggle {
-    clear: both;
-    margin-top: -30px;
-  }
+.navbar-brand a:hover {
+    text-decoration: none;
+    text-shadow: 1px 1px 1px #fe9797;
+}
 
-#beef
-{
-    font-family: 'Oxygen', sans-serif;
+#nav-list {
+    background-color: #e4af34;
+}
+
+#nav-list a {
+    /*text-align: center;*/
+    font-weight: bolder;
+    color: #282828;
+    font-size: 1.2em;
+}
+
+#nav-list a:hover {
+    color: #202020;
+    background-color: #fce29e;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #7d1913;
+}
+
+
+/** END HEADER */
+
+
+/** HOME PAGE **/
+
+#main-content {
+    width: 92%;
+    margin-bottom: 30px;
+}
+
+#main-content h2 {
+    font-size: 2.9em;
     font-weight: bold;
-    font-size: 1.5em;
-    text-shadow: 1px 1px 1px black;
-    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
 }
-#chicken
-{
-    font-family: 'Oxygen', sans-serif;
+
+#main-content h3 {
+    font-size: 1.6em;
     font-weight: bold;
-    font-size: 1.5em;
-    text-shadow: 1px 1px 1px black;
-    text-align: center;
-}
-#sushi
-{
-    font-family: 'Oxygen', sans-serif;
-    font-weight: bold;
-    font-size: 1.5em;
-    text-shadow: 1px 1px 1px black;
-    text-align: center;
+    margin-bottom: 1em;
 }
 
-.chicken {
-    background-color: grey;
-    float: left;
-        box-sizing: border-box;
-        border: 2px solid black;
-        margin: 10px;
-
-}
-
-.beef {
-    background-color: grey;
-    float: left;
-        box-sizing: border-box;
-        border: 2px solid black;
-        margin: 10px;
-        
-}
-.sushi {
-    background-color: grey;
-    float: left;
-        box-sizing: border-box;
-        border: 2px solid black;
-        margin: 10px;
-        
+#chicken-tile, #beef-tile, #sushi-tile {
+    width: 100%;
+    padding: 20px;
+    background-color: #99ed7b;
+    margin-bottom: 60px;
+    box-shadow: 0 0 80px #18580b;
 }
